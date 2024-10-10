@@ -2,24 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/search"
-        android:title="Search"
-        android:icon="@drawable/ic_search"
-        app:actionViewClass="com.google.android.material.search.SearchView"
-        app:showAsAction="always"/>
-
+    <!-- Grouped Messages Menu Item -->
     <item
         android:id="@+id/grouped_msg_menu"
-        android:title="Groupped Messaegs"
+        android:title="Grouped Messages"
         android:icon="@drawable/ic_groupmsg"
         app:showAsAction="always"/>
 
+    <!-- Notifications Menu Item -->
     <item
         android:id="@+id/notification_menu"
         android:title="Notifications"
         android:icon="@drawable/ic_notification"
         app:showAsAction="always"/>
+
+    <!-- Profile Menu Item -->
     <item
         android:id="@+id/profile_menu"
         android:title="Profile"
